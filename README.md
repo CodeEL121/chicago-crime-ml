@@ -63,22 +63,10 @@ Threshold = 0.50. Metrics shown for the **positive class (Arrest = 1)** unless n
 
 ---
 
-## Business / Policy Takeaways
+## Business / Takeaways
 - **Resource Allocation:** A calibrated probability of arrest can highlight contexts where outcomes are more/less likely and inform staffing or escalation policies.
 - **Transparency:** Logistic Regression’s coefficients support explainability for stakeholders.
 - **Caveat:** Correlation ≠ causation. Always review with domain experts and consider fairness/ethics.
-
----
-
-## Repository Structure
-chicago-crime-ml/
-├─ data/
-│  ├─ raw/           # original CSV (ignored)
-│  └─ processed/     # small demo sample
-├─ notebooks/
-│  └─ arrest_prediction_modeling.ipynb
-├─ src/              # optional: pipeline code
-└─ README.md, requirements.txt, .gitignore
 
 ---
 

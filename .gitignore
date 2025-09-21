@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Data
+data/
+
+# Jupyter notebooks junk
+.ipynb_checkpoints/
+
+# Model/output artifacts (if you add later)
+models/
+results/
+
+# OS junk
+.DS_Store
+Thumbs.db
